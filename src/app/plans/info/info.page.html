@@ -1,0 +1,29 @@
+<div class="header">
+  <ion-buttons>
+    <ion-button routerLink="/nav/meal">
+      <ion-icon slot="icon-only" color="light" name="arrow-back"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>{{meal.name}}</ion-title>
+</div>
+
+<ion-content>
+
+  <!-- breakfast -->
+    <div class="breakfast">
+    <h3>Breakfast</h3>
+    <p>{{meal.breakfast}}</p>
+    </div>
+
+    <!-- lunch -->
+    <div class="lunch">
+    <h3>Lunch</h3>
+    <p>{{meal.lunch}}</p>
+    </div>
+
+    <!-- dinner -->
+    <div class="lunch">
+    <h3>Dinner</h3>
+    <p>{{meal.dinner}}</p>
+    </div>
+</ion-content>
