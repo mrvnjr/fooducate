@@ -13,12 +13,20 @@ const routes: Routes = [
         loadChildren: () => import('../home/home.module').then( m => m.HomePageModule)
       },
       {
-        path: 'hmeal',
-        loadChildren: () => import('../hmeal/hmeal.module').then( m => m.HmealPageModule)
+        path: 'foods',
+        loadChildren: () => import('../foods/foods.module').then( m => m.FoodsPageModule)
       },
       {
         path: 'meal',
         loadChildren: () => import('../meal/meal.module').then( m => m.MealPageModule)
+      },
+      {
+        path: 'abouts',
+        loadChildren: () => import('../abouts/abouts.module').then( m => m.AboutsPageModule)
+      },
+      {
+        path: 'favorite',
+        loadChildren: () => import('../favorite/favorite.module').then(m =>m.FavoritePageModule)
       }
       
       /*

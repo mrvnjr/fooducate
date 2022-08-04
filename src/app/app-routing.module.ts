@@ -24,15 +24,16 @@ const routes: Routes = [
     loadChildren: () => import('./plans/info/info.module').then( m => m.InfoPageModule)
   },
   {
-    path: 'infofood/:food',
-    loadChildren: () => import('./foods/infofood/infofood.module').then( m => m.InfofoodPageModule)
+    path: 'fav-details/:id',
+    loadChildren: () => import('./ingredient/fav-details/fav-details.module').then( m => m.FavDetailsPageModule)
   },
-
-
-  
-
-
-
+  {
+    path: 'detail/:id',
+    loadChildren: () => import('./foodsPages/detail/detail.module').then( m => m.DetailPageModule)
+  },  {
+    path: 'abouts',
+    loadChildren: () => import('./abouts/abouts.module').then( m => m.AboutsPageModule)
+  },
 
 
 

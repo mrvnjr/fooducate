@@ -23,10 +23,19 @@ export class SidenavPage implements OnInit {
     },
     {
       name: 'Healthy Meals',
-      link: '/nav/hmeal',
-      icon: 'home'
+      link: '/nav/foods',
+      icon: 'muscle'
+    },
+    {
+      name: 'Favorites',
+      link: '/nav/favorite',
+      icon: 'heart'
+    },
+    {
+      name: 'About Us',
+      link: '/nav/abouts',
+      icon: 'question'
     }
-    
   ]
   constructor(private router: Router) { 
     this.router.events.subscribe((event: RouterEvent)=> {
