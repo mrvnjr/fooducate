@@ -143,7 +143,7 @@ export class FoodsService {
                 description2: '',
                 needs: '',
                 instructions: '',
-            },{
+            },
 
         ];
     }
