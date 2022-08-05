@@ -12,10 +12,11 @@ ion-header .ion-title {
   align-content: center;
 }
 .ion-title, h3 {
-  font-family: 'Arial';
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-left: -5px;
+  font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
 }
 
 ion-header img{

@@ -11,21 +11,21 @@
     
   </div>
 
-<ion-content >
+  <ion-content >
     <ion-card>
       <ion-img [src]="favoriteItem.image"></ion-img>
     </ion-card>
       <div class="image">
-        <ion-title class="ailment-title">{{favoriteItem.title}}</ion-title>
+        <ion-title class="favoriteItem-title">{{favoriteItem.title}}</ion-title>
       </div>
+    
+    <ion-content class="content">
   
-      <ion-content class="content">
-
-        <ion-card>
-          <p>{{favoriteItem.description}}</p>
-        </ion-card>
-        <ion-card>
-          <p>{{favoriteItem.description2}}</p>
-        </ion-card>
-</ion-content>
-</ion-content >
+      <ion-card>
+        <p>{{favoriteItem.description}}</p>
+      </ion-card>
+      <ion-card>
+        <p>{{favoriteItem.description2}}</p>
+      </ion-card>
+    </ion-content>
+  </ion-content >

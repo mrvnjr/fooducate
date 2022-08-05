@@ -9,10 +9,6 @@
     text-align: left;
     box-shadow: 0px 1px 10px rgb(105, 121, 105);
 }
-.header img {
-    width: 55px;
-    height: 55px;
-}
 ion-buttons{
     color: white;
 }
@@ -22,10 +18,13 @@ ion-title {
     color: white;
 }
 
+ion-content{
+    --ion-background-color:#fafff4;
+}
 /*Details*/
 
 ion-card {
-    background-color: white;
+    background-color: #d8e7c5;
     text-align: center;
 	align-content: center;
 	align-self: center;
@@ -37,11 +36,11 @@ ion-img {
     align-self: center;
     margin-top: 0px ;
 }
-.ailment-title {
+.favoriteItem-title {
     background-color: #52b73b;
     color: white;
     font-size: 20px;
-    font-family: Bahnschrift SemiBold;
+    font-family: Arial, Helvetica, sans-serif SemiBold;
     padding: 3px;
     width: 95%;
     margin-top: 5px;
@@ -89,3 +88,4 @@ h3 {
     margin-top:0%;
     height: 500px;
 }
+

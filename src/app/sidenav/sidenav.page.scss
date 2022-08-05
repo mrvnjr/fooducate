@@ -3,8 +3,8 @@ ion-menu ion-content {
   --ion-background-color:#fafff4;
   }
 ion-toolbar{
-  background-color: #6ea833;
-  --ion-background-color: #6ea833;
+  background-color: #a5ca7f;
+  --ion-background-color: #a5ca7f;
 }
   ion-menu.md ion-content {
     --padding-start: 8px;
@@ -41,8 +41,7 @@ ion-menu.md ion-item ion-icon {
     transform: rotate(-12deg);
     border-radius: 10px 10px 10px 50px;
     margin-left: -18px;
-    margin-top: -88px;
-    margin-bottom: 20px;
+ 
   }
   
   .header-content {
@@ -53,8 +52,8 @@ ion-menu.md ion-item ion-icon {
     align-items: center;
   
     img {
-        width: 105px;
-        height: 105px;
+        width: 100px;
+        height: 100px;
         margin-right: 14px;
     }
   }
@@ -67,7 +66,7 @@ ion-menu.md ion-item ion-icon {
   }
 
 ion-list {
-    margin: 48px 10px 10px 10px;
+    margin: 5px 10px 10px 10px;
     background-color: #fafff4;
     --ion-background-color:#fafff4;
 }
