@@ -24,7 +24,7 @@ export class SidenavPage implements OnInit {
     {
       name: 'Healthy Meals',
       link: '/nav/foods',
-      icon: 'muscle'
+      icon: 'fast-food'
     },
     {
       name: 'Favorites',
@@ -34,7 +34,7 @@ export class SidenavPage implements OnInit {
     {
       name: 'About Us',
       link: '/nav/abouts',
-      icon: 'question'
+      icon: 'information-circle'
     }
   ]
   constructor(private router: Router) { 

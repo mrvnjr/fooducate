@@ -9,6 +9,17 @@ ion-header ion-toolbar{
       display: inline-block;
   
       height: auto;
+    }.title{
+      background-color: #52b73b;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif SemiBold;
+    padding: 3px;
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
     }
     .ion-title, h3 {
       font-family: 'Roboto';
@@ -32,4 +43,15 @@ ion-header ion-toolbar{
       font-weight: 600;
       font-family: 'Arial';
       margin-left: 25px;
-    }
+    }p, .one, .two, .three{
+      margin-left: 24px;
+      margin-right: 24px;
+      text-align: center;
+  }
+  p {
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
