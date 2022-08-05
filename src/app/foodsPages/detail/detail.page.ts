@@ -36,11 +36,9 @@ export class DetailPage implements OnInit {
       title: this.foods.title,
       image: this.foods.image,
       description: this.foods.description,
-      pic: this.foods.pic,
-      plant: this.foods.plant,
-      def: this.foods.def,
-      plant2: this.foods.plant2,
-      def2: this.foods.def2,
+      description2:this.foods.description2,
+      needs: this.foods.description,
+      instructions: this.foods.instructions,
     };
 
     this.favoriteService.addToFavorite(favoriteItem);

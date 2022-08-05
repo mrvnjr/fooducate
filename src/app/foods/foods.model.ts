@@ -3,9 +3,7 @@ export interface Foods{
     title: string;
     image: string;
     description: string;
-    pic: string;
-    plant: string;
-    def: string;
-    plant2: string;
-    def2: string;
+    description2: string;
+    needs: string;
+    instructions: string;
 }

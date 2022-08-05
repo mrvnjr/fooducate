@@ -3,9 +3,10 @@ div{
   scroll-margin: 0px;
   margin-left: 15px;
   
-  --ion-background-color: white;
+  --ion-background-color: #fafff4;
 }
 ion-header ion-toolbar{
+  background-color: #6ea833;
   --ion-background-color: #6ea833;
     align-content: center;
   }ion-content{

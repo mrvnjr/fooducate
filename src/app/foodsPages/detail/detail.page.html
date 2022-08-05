@@ -4,33 +4,25 @@
       <ion-icon slot="icon-only" color="light" name="arrow-back"></ion-icon>
     </ion-button>
   </ion-buttons>
-  <ion-title>{{foods.title}}</ion-title>
 <ion-icon class="far fa-heart" (click)="addItemToFavorite()" name="heart"></ion-icon>
   
 </div>
 
 <ion-content >
-    <ion-card>
-      
-    </ion-card>
-      <div class="image">
-        <ion-title class="foods-title">{{foods.title}}</ion-title>
-      </div>
+  <ion-card>
+    <ion-img [src]="foods.image"></ion-img>
+  </ion-card>
+    <div class="image">
+      <ion-title class="foods-title">{{foods.title}}</ion-title>
+    </div>
   
   <ion-content class="content">
-    <!-- description -->
-    <ion-card class="description">
 
+    <ion-card>
       <p>{{foods.description}}</p>
     </ion-card>
-
-    <ion-card class="details">
-      <!-- herbal medication -->
-      <h3>HERBAL MEDICATION</h3>
-      <p><b>{{foods.plant}}</b></p>
-      <p>{{foods.foods}}</p>
-      <p><b>{{foods.plant2}}</b></p>
-      <p>{{foods.def2}}</p>
+    <ion-card>
+      <p>{{foods.description2}}</p>
     </ion-card>
   </ion-content>
 </ion-content >

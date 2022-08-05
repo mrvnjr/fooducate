@@ -1,7 +1,7 @@
 .menu-header-bg {
     height: 180px;
     width: 350px;
-    background: green;
+    background-color: #6ea833;
     background: linear-gradient(90deg, rgb(122, 239, 122) 0%, rgb(73, 180, 73) 100%);
     box-shadow: 0px 1px 10px rgb(105, 121, 105);
     transform: rotate(-15deg);
@@ -24,7 +24,7 @@
     }
 }
 p {
-    font-family: Garamond;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: 200;
