@@ -12,11 +12,9 @@
 </ion-header>
 
 <ion-content>
-  <!-- Search -->
-  <ion-searchbar [(ngModel)]="term" showCancelButton="focus" cancelButtonText="Custom Cancel"></ion-searchbar>
+  
   <div class="list" *ngFor="let meal of meal | filter:term">
   
-    <!--List of herbal plants-->
     <app-plans  [item]="meal" (clicked)="goToInfoPage(meal.plans)"></app-plans>
 
   </div>
