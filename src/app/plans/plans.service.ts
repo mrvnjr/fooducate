@@ -27,8 +27,8 @@ export class PlanService {
 
           },
           {
-            plans: 'Teusday',
-            name: 'Teusday',
+            plans: 'Tuesday',
+            name: 'Tuesday',
             bf1: 'assets/finalsPic/Tab/cup of coffee.jpg',
             bname: '1 Cup of Coffee',
             bf2: 'assets/finalsPic/Tab/tuna sandwich.jpg',
